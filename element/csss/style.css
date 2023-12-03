@@ -43,6 +43,7 @@ img.img-fluid.border_radius-main {
     font-weight: 300;
     line-height: 24px; 
 }
+
 .py_16{
     padding-top: 16px !important ;
     padding-bottom: 16px !important;
@@ -117,7 +118,7 @@ Rehabilitation profile
 }
 /* Aftercaredestination page style  */
 
-.bg-img {
+.asude_background_img{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -129,3 +130,4 @@ Rehabilitation profile
     max-width: 400px;
     max-height: 410px;
 }
+
