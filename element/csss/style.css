@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;600;700;800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Avenir;
+    
+}
+a{
+    text-decoration: none;
+}
+.container-main{
+    max-width: 1120px;
+    margin-left: auto;
+    margin-right:auto ;
+}
+/* .col_half{
+    max-width: 559px;
+    margin-left: auto;
+    margin-right:auto ;
+} */
+.img_sm_width{
+    width: 543px;
+    height:400px ;
+}
+.img_lg_width{
+    width: 1118px;
+    height:400px ;
+}
+
+.heading_main{
+    color: #204D68;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+}
+.header_2{
+    color: #204D68;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.border_radius_main{
+    border-radius:16px ;
+}
+img.img-fluid.border_radius-main {
+    border-radius:16px ;
+}
+.text_main{
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 24px; 
+}
+.py_16{
+    padding-top: 16px !important ;
+    padding-bottom: 16px !important;
+}
+.pl_16{
+    padding-left: 16px !important;
+}
+.pl_13{
+    padding-left: 13px;
+}
+.pr_16{
+    padding-right: 16px !important;
+}
+.mr_16{
+    margin-right: 16px !important;
+}
+.pr_13{
+    padding-right: 13px;
+}
+.pt_16{
+    padding-top: 16px !important;
+}
+.pt_13{
+    padding-top: 13px;
+}
+.pb_13{
+    padding-bottom: 13px;
+}
+.pb_16{
+    padding-bottom: 16px !important;
+}
+@media (max-width: 767px) {
+.container-main{
+    max-width: 414px;
+    margin-left: 4.5rem;
+    margin-right: 4.5rem; 
+}
+.phn_img-width{
+    width: 344px;
+    height: 270px;
+}
+.phn_mt{
+    margin-top: 8px;
+}
+.phn_mb{
+    margin-bottom: 8px;
+}
+
+}
+
+/*=================
+ index page style  
+ ==================*/
+
+  .banner {
+      width: 1279px;
+      height: 2462px;
+      display: inline-flex;
+      align-aitem: center;
+  }
+  .left {
+      position: relative;
+      padding: 50px;
+      overflow: hidden;
+      color: #000;
+      width: 70%;
+      height: 100vh;
+  }
+  .left:after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: #fff;
+      -webkit-transform-origin: 100% 0;
+      -ms-transform-origin: 100% 0;
+      transform-origin: 100% 0;
+      -webkit-transform: skew(-25deg);
+      -ms-transform: skew(-25deg);
+      transform: skew(-25deg);
+      z-index: -1;
+  }
+  .left button {
+    text-transform: uppercase;
+    box-shadow: inset 0 -3px 0 rgba(0,0,0,.1);
+  }
+  .right {
+      width: 100%;
+      height: 100%;
+      overflow: hidden;
+      position: absolute;
+      right: 0;
+      z-index: -2;
+  }
+  .right img {
+      width: 100%;
+      height: auto;
+  }
+
+  /*=================
+Rehabilitation profile
+ ==================*/
+
+span{
+    color: #F4C430;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.col_193{
+    width: 217px;
+}
+::marker {
+    color: #F4C430;
+    padding-right: 10px;
+}
+/* Aftercaredestination page style  */
+
+.bg-img {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 515px;
+    margin-bottom: 16px;
+}
