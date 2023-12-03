@@ -25,3 +25,11 @@ footer style
 .footer_background_color{
     background-color: #0D6183;
 }
+.social_icons a i{
+    padding: 10px;
+    border-radius: 50%;
+    background-color: #FFF;
+    width: 32px;
+    color: #0D6183;
+    height: 32px;
+}
